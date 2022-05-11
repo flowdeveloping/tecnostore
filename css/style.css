@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
+
+/************RESET************/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/************GENERALES**************/
+
+html,
+body {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;  
+}
+
+p {
+    font-size: 1rem;
+    margin:10px 0;
+    line-height: 1;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+                     /******************HOME******************/
+
+/*************HEADER************/
+
+header {
+    background: rgb(224,83,159);
+background: linear-gradient(267deg, rgba(224,83,159,1) 0%, rgba(255,205,232,1) 100%);
+}
+
+header .logo {
+margin: 0;
+padding: 20px 30px; /*1arriba y abajo - 2 a los costados*/
+
+}
+
+header .contenedor {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+header nav {
+display: flex;
+flex-direction: column;
+text-align: center;
+padding-bottom: 25px;
+}
+
+header a {
+padding: 5px 12px;
+text-decoration: none;
+font-size: 18px;
+font-weight: bold;
+color: #ffffff;
+}
+
+header a:hover {
+color: #353535;
+}
+
+/*************PORTADA CONTENEDOR,BTN+BTN ESTILO**************/
+
+.contenedor {
+    margin: auto;
+    max-width: 1400px; /*despegue del margen*/
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 15px 40px;
+    
+}
+
+.btn-estilo1 {
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    border-radius: 60px;
+    font-weight: 300;  
+}
+
+.btn-estilo1:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+.imagenPortada {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-image: url(../img/notebookclaro.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 700px;
+    padding: 100px;
+}
+
+.imagenPortada .btn {
+    margin-top: 450px;
+}
+
+/**************MAIN**************/
+
+.nuestrasVentas .ventasTituloV {
+    
+    font-size: 3.4rem;
+    margin-top: none;
+    margin-bottom: 30px;
+}
+.nuestrasVentas {
+    background-color: rgb(44, 44, 44);
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+.nuestrasVentas .contenedor {
+    padding: 100px 0;
+}
+
+.nuestrasVentas p {
+    display: none;
+}
+
+.nuestrasVentas .carta {
+    background-position: center center;
+    background-size: cover;
+    padding: 100px;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+.carta:first-child {
+background-image: url(/img/Notebook/notebookmac.jpg);
+border-radius: 30px;
+    
+
+}
+
+.carta:nth-child(2) {
+    background-image: url(/img/Accesorios/mouseapple1.jpg);
+    border-radius: 30px;
+    
+}
+
+.carta:nth-child(3) {
+    background-image: url(/img/Auricular/newairpod.jpg);
+    border-radius: 30px;
+    
+}
+/************BOTONESSSSS MAIN************/
+
+button {
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: 20px 40px;
+    margin-top: 50px;
+    border-radius: 60px;
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #ffffff;
+    color: #000000;
+    
+}
+
+
+/*************CONTACTO GRID AREA*************/
+
+.contactTituloC {
+    color: #740E45;
+    margin-top: 25PX;
+    font-size: 3.4rem;
+    
+
+}
+
+.contactSegundoC {
+    font-size: 18px;
+    margin: 10px 20px;
+}
+
+.formFormC {
+    margin: auto;
+    margin-top: 25px;
+    width: 260px;
+    height: 300px;
+    grid-area: formFormC;
+}
+
+.campoC {
+    margin: 10px;
+
+}
+.contenedorInputC {
+    margin: none;
+    width: 100%;
+
+}
+
+.contenedorInputC .campoC {
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+.mapaMapaC iframe {
+    margin-top: 180px;
+    width: 350px;
+    height: 300px;
+    grid-area: mapaMapaC;
+}
+
+.btn-estiloC {
+    margin-top: 20px;
+    background-color: #740E45;
+    color: #ffffff;
+    padding: 15px 80px;
+    border-radius: 60px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.btn-estiloC:hover {
+    cursor: pointer;
+    background: #cc1a79;
+}
+
+/***************** FOOTER *****************/
+footer  {
+    margin-top: 100px;
+    padding: 40px 0;
+    background: rgb(44, 44, 44);
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+.iconosSociales .Socialindividual {
+    
+    width: 40px;
+    height: 40px;
+    line-height: 52px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    margin-bottom: 30px;
+}
+
+.linea {
+    width: 70%; /*define el ancho de la linea*/
+    border-top: 2px solid white; /*creas la linea, mientras mas pixeles le des se hace mas gruesa*/
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top:  20px; /*le puse ese margen para que no esté pegada arriba del todo y no se vea*/
+}
+.parrafoC {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0 5px;
+    font-size: 15px;
+    
+}
+
+/**********************************ACA TERMINO EL INDEX**********************************/
+
+
+                        /******************STORE******************/
+
+
+/******************MAINSTORE******************/
+
+img {
+    max-width: 100%;
+}
+
+
+h3 {
+    font-size: 2rem;
+}
+
+.seccion {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.tituloStore {
+    font-size: 4rem;
+    padding-bottom: 50px;
+    color: #740E45;
+    
+}
+.centrar-texto {
+    text-align: center;
+}
+
+.contenido-centrado {
+    max-width: 800px;
+}
+
+
+
+/********** BOTON STORE *************/
+
+.boton {
+    color: #ffffff;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 1rem 5rem;
+    margin-top: 3rem;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    display: block;
+    flex: 0 0 100%;
+}
+
+.boton:hover {
+    cursor: pointer;
+    background-color: #cc1a79;
+
+}
+
+.botonStore {
+    border-radius: 30px;
+    background-color: #6b0059;
+}
+
+/*********** ANUNCIOS VENTAS DEL STORE***********/
+
+
+.contenido-anuncio {
+    padding: 2rem;
+}
+.contenido-anuncio h3, 
+.contenido-anuncio p  {
+    padding-top: 10px;
+    margin: 0;
+}
+.precioStore {
+    padding-top: 25px;
+    color: #000000;
+    font-weight: 700;
+}
+
+/**********************************ACA TERMINO EL STORE**********************************/
+                        
+/*****************************/         /*****************************/
+
+/************************ACA EMPIEZAN LOS MEDIA QUERY IPAD*****************/
+
+/**********************MEDIA QUERY STORE********************************/
+
+@media (min-width: 768px) {
+    .contenedor-anuncios{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+    .anuncioStore {
+        border: 1px solid #B5B5B5;
+        background-color: #F5F5F5;
+        margin-bottom: 2rem;
+        flex: 0 0 calc(33.3% - 1rem);
+}
+
+
+/**********************MEDIA QUERY NUESTRAS VENTAS********************************/
+@media (min-width:768px) {
+
+    
+    header .contenedor {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+
+    }
+
+    .nuestrasVentas .productos {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .nuestrasVentas p {
+        display: none;
+        
+    }
+
+    .nuestrasVentas .carta {
+        padding: 75px;
+        width: 10%;
+        height: 10%;
+        
+    }
+
+    .nuestrasVentas .carta h3 {
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .nuestrasVentas .carta button {
+        margin-left: -30px;
+    }
+} 
+
+/**********************MEDIA QUERY CONTACTO********************************/
+@media (min-width:768px) {
+    .padreGridC {
+        display: grid;
+        grid-template-areas: 
+        "formFormC mapaMapaC";
+    }
+    .formFormC {
+        margin: 30px;
+        padding-top: 40px;
+        
+    }
+    .mapaMapaC iframe {
+        width: 400px;
+        height: 400px;
+        margin-top: 75px;
+        margin-right: 20px;
+    }
+}
+
+/**********************MEDIA QUERY FOOTER********************************/
+
+@media (min-width:768px) {
+        
+    .parrafoC {
+        font-size: 20px;
+        
+    }
+}
+
+/*****************************/         /*****************************/
+
+/************************ACA EMPIEZAN LOS MEDIA QUERY WEB*****************/
+
+/**********************MEDIA QUERY PRODUCTS********************************/
+
+
+
+
+@media screen and (min-width:1024px) {
+    .nuestrasVentas .carta h3 {
+        font-size: 36px;
+        padding-bottom: 15px;
+    }
+
+    .nuestrasVentas .carta {
+        padding: 40px 120px;
+    }
+    button {
+           
+        padding: 20px 40px;
+        margin-right: -25px;
+       
+    }
+    .nuestrasVentas p {
+        display: flex;
+        font-size: 18PX;        
+    } 
+
+}
+
+/**********************MEDIA QUERY CONTACT********************************/
+
+@media screen and (min-width:1024px) {
+    .padreGridC {
+    
+    display: grid;
+    grid-template-areas: 
+    "formFormC  mapaMapaC";
+}
+    .formFormC {
+        margin: 50px;
+        padding-top: 50px;
+        padding-left: 300px;
+}
+    .mapaMapaC iframe {
+        MARGIN-top: 100px;
+        padding-right: 300px;
+        width: 600px;
+        height: 400px;
+}
+
+    .contactTituloC {
+        font-size: 3.5rem;
+        margin-top: 50PX;
+        
+}
+    .contactSegundoC {
+        font-size: 24px;
+        
+}
+
+}
