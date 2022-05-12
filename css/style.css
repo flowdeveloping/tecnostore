@@ -155,20 +155,32 @@ color: #353535;
 }
 
 .carta:first-child {
+<<<<<<< HEAD
 background-image: url(img/Notebook/notebookmac.jpg);
+=======
+background-image: url(../img/Notebook/notebookmac.jpg);
+>>>>>>> mi-rama
 border-radius: 30px;
     
 
 }
 
 .carta:nth-child(2) {
+<<<<<<< HEAD
     background-image: url(img/Accesorios/mouseapple1.jpg);
+=======
+    background-image: url(../img/Accesorios/mouseapple1.jpg);
+>>>>>>> mi-rama
     border-radius: 30px;
     
 }
 
 .carta:nth-child(3) {
+<<<<<<< HEAD
     background-image: url(img/Auricular/newairpod.jpg);
+=======
+    background-image: url(../img/Auricular/newairpod.jpg);
+>>>>>>> mi-rama
     border-radius: 30px;
     
 }
