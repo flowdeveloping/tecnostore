@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
 
-/************RESET************/
+//RESET*********************************************************
 
 * {
   margin: 0;
   padding: 0;
 }
 
-/************GENERALES**************/
+//GENERALES*****************************************************
 
 html, body {
   font-family: 'Nunito', sans-serif;
@@ -24,9 +24,9 @@ a {
   text-decoration: none;
 }
 
-/******************HOME******************/
+//HOME**************************************************************
 
-/*************HEADER************/
+//HEADER*************************************************************
 
 header {
   background: rgb(224, 83, 159);
@@ -36,7 +36,7 @@ header {
     margin: 0;
     padding: 20px 30px;
 
-    /*1arriba y abajo - 2 a los costados*/
+    //1arriba y abajo - 2 a los costados
   }
 
   .contenedor {
@@ -65,7 +65,7 @@ header {
   }
 }
 
-/*************PORTADA CONTENEDOR,BTN+BTN ESTILO**************/
+//PORTADA CONTENEDOR,BTN+BTN ESTILO*******************************************************************************
 
 .contenedor {
   margin: auto;
@@ -123,7 +123,7 @@ header {
   }
 }
 
-/**************MAIN**************/
+//MAIN********************************************************
 
 .nuestrasVentas {
   .ventasTituloV {
@@ -170,7 +170,7 @@ header {
   }
 }
 
-/************BOTONESSSSS MAIN************/
+//BOTONESSSSS MAIN****************************************
 
 button {
   font-size: 1.5rem;
@@ -189,7 +189,7 @@ button {
   }
 }
 
-/*************CONTACTO GRID AREA*************/
+//CONTACTO GRID AREA******************************************************
 
 .contactTituloC {
   color: #740E45;
@@ -249,7 +249,7 @@ button {
   }
 }
 
-/***************** FOOTER *****************/
+// FOOTER *****************************************
 
 footer {
   margin-top: 100px;
@@ -273,17 +273,17 @@ footer {
 .linea {
   width: 70%;
 
-  /*define el ancho de la linea*/
+  //define el ancho de la linea******************************************
   border-top: 2px solid white;
 
-  /*creas la linea, mientras mas pixeles le des se hace mas gruesa*/
+  //creas la linea, mientras mas pixeles le des se hace mas gruesa******************************************
   bottom: 0;
   left: 0;
   right: 0;
   margin: auto;
   margin-top: 20px;
 
-  /*le puse ese margen para que no esté pegada arriba del todo y no se vea*/
+  //le puse ese margen para que no esté pegada arriba del todo y no se vea******************************************
 }
 
 .parrafoC {
@@ -293,11 +293,11 @@ footer {
   font-size: 15px;
 }
 
-/**********************************ACA TERMINO EL INDEX**********************************/
+//ACA TERMINO EL INDEX***************************************************************************
 
-/******************STORE******************/
+//STORE***********************************************************
 
-/******************MAINSTORE******************/
+//MAINSTORE***********************************************************
 
 img {
   max-width: 100%;
@@ -326,7 +326,7 @@ h3 {
   max-width: 800px;
 }
 
-/********** BOTON STORE *************/
+// BOTON STORE ******************************************************
 
 .boton {
   color: #ffffff;
@@ -352,7 +352,7 @@ h3 {
   background-color: #6b0059;
 }
 
-/*********** ANUNCIOS VENTAS DEL STORE***********/
+// ANUNCIOS VENTAS DEL STORE****************************************************
 
 .contenido-anuncio {
   padding: 2rem;
@@ -369,15 +369,13 @@ h3 {
   font-weight: 700;
 }
 
-/**********************************ACA TERMINO EL STORE**********************************/
+//ACA TERMINO EL STORE***************************************************************************
 
-/*****************************/
 
-/*****************************/
 
-/************************ACA EMPIEZAN LOS MEDIA QUERY IPAD*****************/
+//ACA EMPIEZAN LOS MEDIA QUERY IPAD**********************************************************
 
-/**********************MEDIA QUERY STORE********************************/
+//MEDIA QUERY STORE*************************************************************************
 
 @media (min-width: 768px) {
   .contenedor-anuncios {
@@ -394,7 +392,7 @@ h3 {
   flex: 0 0 calc(33.3% - 1rem);
 }
 
-/**********************MEDIA QUERY NUESTRAS VENTAS********************************/
+//MEDIA QUERY NUESTRAS VENTAS*************************************************************************
 @media (min-width: 768px) {
   header {
     .contenedor {
@@ -437,7 +435,7 @@ h3 {
   }
 }
 
-/**********************MEDIA QUERY CONTACTO********************************/
+//MEDIA QUERY CONTACTO*************************************************************************
 @media (min-width: 768px) {
   .padreGridC {
     display: grid;
@@ -457,7 +455,7 @@ h3 {
   }
 }
 
-/**********************MEDIA QUERY FOOTER********************************/
+//MEDIA QUERY FOOTER*************************************************************************
 
 @media (min-width: 768px) {
   .parrafoC {
@@ -465,13 +463,11 @@ h3 {
   }
 }
 
-/*****************************/
 
-/*****************************/
 
-/************************ACA EMPIEZAN LOS MEDIA QUERY WEB*****************/
+//ACA EMPIEZAN LOS MEDIA QUERY WEB*******************************************************
 
-/**********************MEDIA QUERY PRODUCTS********************************/
+//MEDIA QUERY PRODUCTS************************************************************
 
 @media screen and (min-width: 1024px) {
   .nuestrasVentas .carta {
@@ -494,7 +490,7 @@ h3 {
   }
 }
 
-/**********************MEDIA QUERY CONTACT********************************/
+//MEDIA QUERY CONTACT****************************************************************
 
 @media screen and (min-width: 1024px) {
   .padreGridC {
