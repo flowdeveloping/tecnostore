@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
-
+@import "variables";
 //RESET*********************************************************
 
 * {
@@ -12,6 +12,7 @@
 html, body {
   font-family: 'Nunito', sans-serif;
   text-align: center;
+  font-size: $tam-fuente;
 }
 
 p {
@@ -235,7 +236,7 @@ button {
 
 .btn-estiloC {
   margin-top: 20px;
-  background-color: #740E45;
+  background-color: $color-textovioleta;
   color: #ffffff;
   padding: 15px 80px;
   border-radius: 60px;
@@ -315,7 +316,7 @@ h3 {
 .tituloStore {
   font-size: 4rem;
   padding-bottom: 50px;
-  color: #740E45;
+  color: $color-textovioleta;
 }
 
 .centrar-texto {
@@ -349,7 +350,7 @@ h3 {
 
 .botonStore {
   border-radius: 30px;
-  background-color: #6b0059;
+  background-color: $color-textovioleta;
 }
 
 // ANUNCIOS VENTAS DEL STORE****************************************************

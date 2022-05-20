@@ -5,7 +5,8 @@
 
 html, body {
   font-family: 'Nunito', sans-serif;
-  text-align: center; }
+  text-align: center;
+  font-size: 1rem; }
 
 p {
   font-size: 1rem;
@@ -248,7 +249,7 @@ h3 {
 
 .botonStore {
   border-radius: 30px;
-  background-color: #6b0059; }
+  background-color: #740E45; }
 
 .contenido-anuncio {
   padding: 2rem; }
