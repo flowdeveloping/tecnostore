@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
-@import "variables";
+
+
+$tam-fuente: 1rem;
+$color-violeta: #740E45;
+
+
 //RESET*********************************************************
 
 * {
@@ -236,7 +241,7 @@ button {
 
 .btn-estiloC {
   margin-top: 20px;
-  background-color: $color-textovioleta;
+  background-color: $color-violeta;
   color: #ffffff;
   padding: 15px 80px;
   border-radius: 60px;
@@ -316,7 +321,7 @@ h3 {
 .tituloStore {
   font-size: 4rem;
   padding-bottom: 50px;
-  color: $color-textovioleta;
+  color: $color-violeta;
 }
 
 .centrar-texto {
@@ -350,7 +355,7 @@ h3 {
 
 .botonStore {
   border-radius: 30px;
-  background-color: $color-textovioleta;
+  background-color: $color-violeta;
 }
 
 // ANUNCIOS VENTAS DEL STORE****************************************************
